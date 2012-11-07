@@ -7,13 +7,14 @@ Gem::Specification.new do |gem|
   gem.name          = "gob"
   gem.version       = Gob::VERSION
   gem.authors       = ["Guille Carlos"]
-  gem.email         = ["ramon.g.carlos@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["guille@bitpop.in"]
+  gem.description   = %q{Simple ruby web framework}
+  gem.summary       = %q{Simple ruby web framework}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+  gem.add_runtime_dependency "rack"
 end
