@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Gob::VERSION
   gem.authors       = ["Guille Carlos"]
   gem.email         = ["guille@bitpop.in"]
-  gem.description   = %q{Simple ruby web framework}
+  gem.description   = %q{Simple ruby web framework with some hotness}
   gem.summary       = %q{Simple ruby web framework}
-  gem.homepage      = ""
+  gem.homepage      = "http://gobbluth.com"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
